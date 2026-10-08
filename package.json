@@ -1,0 +1,19 @@
+{
+  "name": "mibombo-platform",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Mi Bombo: chat, juegos de casino con dinero virtual y minijuego de flechas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "socket.io": "^4.8.1"
+  }
+}
